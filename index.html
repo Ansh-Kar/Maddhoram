@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#7a1a2e" />
+  <meta name="description" content="Maddhoram · Desi Swaad — traditional sweets, savoris, dry fruits & confectioneries, made fresh every day in Bhubaneswar since 1985." />
+  <title>Maddhoram · Desi Swaad — Traditional Sweets, Savoris &amp; More</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect x='2' y='2' width='32' height='32' rx='8' fill='%237a1a2e'/%3E%3Ccircle cx='18' cy='18' r='9' fill='none' stroke='%23e3bd63' stroke-width='2.5'/%3E%3Ccircle cx='18' cy='18' r='2.5' fill='%23e3bd63'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/style.css?v=4" />
+</head>
+<body>
+
+  <a class="skip-link" href="#menu">Skip to menu</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Maddhoram — Desi Swaad, home">
+        <svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true">
+          <circle cx="18" cy="18" r="15.5" fill="none" stroke="#e3bd63" stroke-width="2"/>
+          <circle cx="18" cy="18" r="3.2" fill="#e3bd63"/>
+          <g stroke="#e3bd63" stroke-width="1.7" stroke-linecap="round">
+            <line x1="18" y1="7.5" x2="18" y2="13"/>
+            <line x1="18" y1="23" x2="18" y2="28.5"/>
+            <line x1="7.5" y1="18" x2="13" y2="18"/>
+            <line x1="23" y1="18" x2="28.5" y2="18"/>
+            <line x1="10.6" y1="10.6" x2="14.5" y2="14.5"/>
+            <line x1="21.5" y1="21.5" x2="25.4" y2="25.4"/>
+            <line x1="25.4" y1="10.6" x2="21.5" y2="14.5"/>
+            <line x1="14.5" y1="21.5" x2="10.6" y2="25.4"/>
+          </g>
+        </svg>
+        <span class="brand-text">Maddhoram<small>DESI SWAAD</small></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#menu">Menu</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn" id="cartOpenBtn" aria-label="Open your tray">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="cart-count" id="cartCount" hidden>0</span>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO — packaging-box banner ============ -->
+    <section class="hero" id="home">
+      <div class="hero-frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+      <svg class="hero-mandala" viewBox="0 0 400 400" aria-hidden="true">
+        <defs><path id="petal" d="M200 26c17 26 17 50 0 70-17-20-17-44 0-70z"/></defs>
+        <g fill="none" stroke="#e3bd63" stroke-width="1.6">
+          <circle cx="200" cy="200" r="192"/>
+          <circle cx="200" cy="200" r="160"/>
+          <circle cx="200" cy="200" r="118"/>
+          <circle cx="200" cy="200" r="64"/>
+          <circle cx="200" cy="200" r="20"/>
+          <use href="#petal"/><use href="#petal" transform="rotate(30 200 200)"/>
+          <use href="#petal" transform="rotate(60 200 200)"/><use href="#petal" transform="rotate(90 200 200)"/>
+          <use href="#petal" transform="rotate(120 200 200)"/><use href="#petal" transform="rotate(150 200 200)"/>
+          <use href="#petal" transform="rotate(180 200 200)"/><use href="#petal" transform="rotate(210 200 200)"/>
+          <use href="#petal" transform="rotate(240 200 200)"/><use href="#petal" transform="rotate(270 200 200)"/>
+          <use href="#petal" transform="rotate(300 200 200)"/><use href="#petal" transform="rotate(330 200 200)"/>
+        </g>
+      </svg>
+
+      <div class="container hero-inner">
+        <p class="hero-eyebrow">Premium Sweets<span class="hide-sm"> · Est. 1985</span></p>
+        <h1>Where every sweet<br /><span class="accent">tells a story</span></h1>
+        <p class="hero-sub">Traditional sweets • savoris • dry fruits • confectioneries &amp; more — from hand-pulled rasgullas to slow-cooked dal makhani, all made fresh in-house every single day.</p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-gold">Explore the Menu</a>
+          <a href="#contact" class="btn btn-ghost">Find the Shop</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>56+</strong><span>sweets &amp; dishes</span></li>
+          <li><strong>40</strong><span>years of craft</span></li>
+          <li><strong>7&nbsp;AM</strong><span>opens daily</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ TICKER ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <div class="ticker-group">
+          <span>Fresh jalebi out of the fryer at 7 AM</span><span class="dot">◆</span>
+          <span>Free delivery on orders above ₹500</span><span class="dot">◆</span>
+          <span>Traditional sweets · savoris · dry fruits · confectioneries</span><span class="dot">◆</span>
+          <span>Pure desi ghee · no artificial colours</span><span class="dot">◆</span>
+          <span>Catering for weddings &amp; events</span><span class="dot">◆</span>
+          <span>Open 7 AM – 10:30 PM, all 7 days</span><span class="dot">◆</span>
+        </div>
+        <div class="ticker-group">
+          <span>Fresh jalebi out of the fryer at 7 AM</span><span class="dot">◆</span>
+          <span>Free delivery on orders above ₹500</span><span class="dot">◆</span>
+          <span>Traditional sweets · savoris · dry fruits · confectioneries</span><span class="dot">◆</span>
+          <span>Pure desi ghee · no artificial colours</span><span class="dot">◆</span>
+          <span>Catering for weddings &amp; events</span><span class="dot">◆</span>
+          <span>Open 7 AM – 10:30 PM, all 7 days</span><span class="dot">◆</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ MENU ============ -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">The Menu</p>
+          <h2>Traditional Sweets, Savoris &amp; More</h2>
+          <div class="ornament" aria-hidden="true"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>
+          <p>Everything is made in-house, every day. Prices are in rupees and inclusive of all taxes · <span class="veg-inline" aria-hidden="true"><i></i></span> marks vegetarian items.</p>
+        </div>
+      </div>
+
+      <div class="menu-toolbar">
+        <div class="container toolbar-inner">
+          <div class="search-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" id="searchInput" placeholder="Search — try “biryani” or “katli”…" aria-label="Search the menu" />
+          </div>
+          <div class="tabs" id="tabs"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <p class="result-count" id="resultCount" aria-live="polite"></p>
+        <div class="grid" id="menuGrid"></div>
+        <div class="empty" id="emptyState" hidden>
+          <strong>No items found</strong>
+          <p>Try a different search — how about “jalebi” or “dosa”?</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-text reveal">
+          <p class="eyebrow">Our Story</p>
+          <h2>Three generations of mithai</h2>
+          <p>Maddhoram began in 1985 as a tiny halwai shop in Old Town Bhubaneswar, run by our grandfather with two copper kadhais and a handwritten notebook of recipes. Three generations later, not much has changed — we still churn our own chenna, still fry jalebi in batches through the morning, and still slow-cook our dal makhani overnight.</p>
+          <p>The kitchen has grown, though. Alongside the mithai, our chefs now serve the Indian dishes families ask for — from masala dosas at breakfast to Hyderabadi biryani on Sunday afternoons. And our signature gift boxes carry the same promise as the first one our grandfather ever packed: traditional sweets, savoris, dry fruits and confectioneries, wrapped in deep crimson and gold.</p>
+          <ul class="about-points">
+            <li>
+              <span class="point-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></span>
+              <div><strong>Pure desi ghee</strong><span>Every sweet and dish, made with pure ghee — no shortcuts.</span></div>
+            </li>
+            <li>
+              <span class="point-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22c4.4 0 7-2.8 7-6.5 0-4.5-4-6.5-5.5-10C12 8 10 9.5 10 12c-1.5-1-2-2.5-2-4-2 2-3 4.5-3 7 0 3.7 2.6 6.5 7 6.5z"/></svg></span>
+              <div><strong>Made fresh daily</strong><span>From jalebi to biryani, prepared in-house each morning.</span></div>
+            </li>
+            <li>
+              <span class="point-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></span>
+              <div><strong>Family recipes</strong><span>Three generations of chefs behind every plate.</span></div>
+            </li>
+            <li>
+              <span class="point-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><rect x="5" y="12" width="14" height="9" rx="1"/><line x1="12" y1="8" x2="12" y2="21"/><path d="M12 8c-1.5-4-7-4-7-1s5 1 7 1zM12 8c1.5-4 7-4 7-1s-5 1-7 1z"/></svg></span>
+              <div><strong>Signature gift boxes</strong><span>Our crimson-and-gold boxes, packed to order for every occasion.</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-visual reveal">
+          <div class="thali-card">
+            <div class="thali-badge"><strong>1985</strong><span>est.</span></div>
+            <svg viewBox="0 0 320 320" role="img" aria-label="Illustration of a traditional Indian thali with mithai, curries, sabzi and rice">
+              <circle cx="160" cy="160" r="140" fill="#fffdf6" stroke="#ecd9ae" stroke-width="3"/>
+              <circle cx="160" cy="160" r="133" fill="none" stroke="#b3872e" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+              <circle cx="160" cy="160" r="124" fill="#f6e8cf"/>
+              <g stroke="#fffdf6" stroke-width="4">
+                <circle cx="160" cy="70" r="29" fill="#9c2438"/>
+                <circle cx="230" cy="126" r="29" fill="#571022"/>
+                <circle cx="204" cy="208" r="29" fill="#177a4c"/>
+                <circle cx="116" cy="208" r="29" fill="#e3bd63"/>
+                <circle cx="90" cy="126" r="29" fill="#b3872e"/>
+              </g>
+              <g fill="#fffdf6" opacity=".55">
+                <circle cx="152" cy="62" r="3"/><circle cx="168" cy="70" r="3"/><circle cx="158" cy="80" r="3"/>
+                <circle cx="222" cy="118" r="3"/><circle cx="238" cy="126" r="3"/><circle cx="228" cy="136" r="3"/>
+                <circle cx="196" cy="200" r="3"/><circle cx="212" cy="208" r="3"/><circle cx="202" cy="218" r="3"/>
+                <circle cx="108" cy="200" r="3"/><circle cx="124" cy="208" r="3"/><circle cx="114" cy="218" r="3"/>
+                <circle cx="82" cy="118" r="3"/><circle cx="98" cy="126" r="3"/><circle cx="88" cy="136" r="3"/>
+              </g>
+              <circle cx="160" cy="160" r="40" fill="#fff8ec" stroke="#e8d5b5" stroke-width="2"/>
+              <circle cx="160" cy="160" r="28" fill="#f7e8c9"/>
+              <g fill="#e8cf9d">
+                <ellipse cx="152" cy="154" rx="3.4" ry="1.8" transform="rotate(-24 152 154)"/>
+                <ellipse cx="166" cy="150" rx="3.4" ry="1.8" transform="rotate(18 166 150)"/>
+                <ellipse cx="172" cy="164" rx="3.4" ry="1.8" transform="rotate(-40 172 164)"/>
+                <ellipse cx="154" cy="170" rx="3.4" ry="1.8" transform="rotate(30 154 170)"/>
+                <ellipse cx="162" cy="160" rx="3.4" ry="1.8" transform="rotate(70 162 160)"/>
+              </g>
+              <path d="M120 44c6-8 14-8 20 0" fill="none" stroke="#177a4c" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+              <path d="M186 268c6-8 14-8 20 0" fill="none" stroke="#177a4c" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+            </svg>
+            <p class="thali-caption">The Maddhoram thali — a little of everything we love.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Visit Us</p>
+          <h2>Come, say hello</h2>
+          <div class="ornament" aria-hidden="true"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>
+          <p>Walk-ins are always welcome — or drop us a message and we'll call you right back.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="info-card">
+              <span class="info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <div><h3>Visit the shop</h3><p>Plot 12, Old Town Market,<br />Bhubaneswar, Odisha 751001</p></div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+              <div><h3>Call or WhatsApp</h3><p>+91 674 250 1985<br />hello@maddhoram.in</p></div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span>
+              <div><h3>Opening hours</h3><p>Every day, 7:00 AM – 10:30 PM<br />Open on all festivals</p></div>
+            </div>
+            <div class="info-card">
+              <span class="info-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+              <div><h3>Catering &amp; gifting</h3><p>Weddings, house parties and corporate hampers — tell us the occasion and the headcount.</p></div>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="cfName">Your name</label>
+                <input id="cfName" name="name" type="text" placeholder="e.g. Ananya Patra" required />
+              </div>
+              <div class="field">
+                <label for="cfPhone">Phone number</label>
+                <input id="cfPhone" name="phone" type="tel" placeholder="+91 …" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="cfMsg">Message</label>
+              <textarea id="cfMsg" name="message" placeholder="Tell us what you're craving, or the details of your event…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-red btn-block">Send Message</button>
+            <p class="form-note">We usually reply within a few hours during shop timings.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#home">
+          <svg width="30" height="30" viewBox="0 0 36 36" aria-hidden="true">
+            <circle cx="18" cy="18" r="15.5" fill="none" stroke="#e3bd63" stroke-width="2"/>
+            <circle cx="18" cy="18" r="3.2" fill="#e3bd63"/>
+            <g stroke="#e3bd63" stroke-width="1.7" stroke-linecap="round">
+              <line x1="18" y1="7.5" x2="18" y2="13"/>
+              <line x1="18" y1="23" x2="18" y2="28.5"/>
+              <line x1="7.5" y1="18" x2="13" y2="18"/>
+              <line x1="23" y1="18" x2="28.5" y2="18"/>
+              <line x1="10.6" y1="10.6" x2="14.5" y2="14.5"/>
+              <line x1="21.5" y1="21.5" x2="25.4" y2="25.4"/>
+              <line x1="25.4" y1="10.6" x2="21.5" y2="14.5"/>
+              <line x1="14.5" y1="21.5" x2="10.6" y2="25.4"/>
+            </g>
+          </svg>
+          <span class="brand-text">Maddhoram<small>DESI SWAAD</small></span>
+        </a>
+        <p style="margin-top:14px">Traditional sweets, savoris, dry fruits and confectioneries — made fresh every day in the heart of Bhubaneswar since 1985.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Full menu</a></li>
+          <li><a href="#about">Our story</a></li>
+          <li><a href="#contact">Contact &amp; gifting</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul class="footer-links">
+          <li>Monday – Sunday</li>
+          <li>7:00 AM – 10:30 PM</li>
+          <li>Old Town Market, Bhubaneswar</li>
+          <li>+91 674 250 1985</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">© 2026 Maddhoram · Desi Swaad · Made with love in Bhubaneswar, Odisha</div>
+    </div>
+  </footer>
+
+  <!-- ============ CART DRAWER ============ -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="cartDrawer" aria-label="Your tray">
+    <header class="drawer-head">
+      <h2>Your Tray <span class="drawer-count" id="drawerCount" hidden></span></h2>
+      <button class="drawer-close" id="drawerClose" aria-label="Close tray">×</button>
+    </header>
+    <div class="drawer-items" id="drawerItems">
+      <div class="drawer-empty" id="drawerEmpty">
+        <svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <strong>Your tray is empty</strong>
+        <p>Browse the menu and add something delicious.</p>
+      </div>
+    </div>
+    <footer class="drawer-foot" id="drawerFoot" hidden>
+      <p class="delivery-note" id="deliveryNote"></p>
+      <div class="total-row"><span>Total</span><span id="cartTotal">₹0</span></div>
+      <button class="btn btn-gold btn-block" id="checkoutBtn">Place Order</button>
+    </footer>
+  </aside>
+
+  <!-- ============ STICKY CART BAR (item count + total) ============ -->
+  <div class="cart-bar" id="cartBar" hidden>
+    <div class="cart-bar-info">
+      <strong id="cartBarCount">0 items</strong>
+      <span id="cartBarTotal">₹0</span>
+    </div>
+    <button class="btn btn-gold btn-sm" id="cartBarView">View Tray →</button>
+  </div>
+
+  <!-- ============ ORDER FLOW: packing animation + live tracking ============ -->
+  <div class="order-flow" id="orderFlow" hidden>
+    <div class="of-scene-wrap" id="ofSceneWrap">
+      <div class="of-scene" id="ofScene" aria-hidden="true">
+        <div class="p-scooter" id="pScooter"></div>
+        <div class="p-baggroup" id="pBagGroup">
+          <div class="p-bagback" id="pBagBack"></div>
+          <div class="p-box" id="pBox"></div>
+          <div class="p-bagfront" id="pBagFront"></div>
+        </div>
+      </div>
+      <p class="of-caption" id="ofCaption">Packing your order fresh…</p>
+    </div>
+
+    <div class="of-track" id="ofTrack" hidden>
+      <div class="of-card">
+        <header class="of-head">
+          <div>
+            <p class="of-label">Order <span id="ofOrderId">#MD-0000</span></p>
+            <h2 id="ofStatusTitle">Packing your sweets…</h2>
+            <p class="of-sub" id="ofStatusSub">Fresh from our kitchen to your doorstep</p>
+          </div>
+          <div class="of-head-chips">
+            <span class="of-count-chip" id="ofCountChip" hidden></span>
+            <span class="of-eta-chip" id="ofEtaChip">~35 min</span>
+          </div>
+        </header>
+
+        <ol class="of-steps" id="ofSteps"></ol>
+
+        <div class="of-eta">
+          <span>Estimated delivery</span>
+          <strong id="ofCountdown">35:00</strong>
+        </div>
+
+        <div class="of-bagchat">
+          <div class="of-bagwrap" id="ofBagWrap">
+            <div class="of-bubble" id="ofBubble" hidden>
+              <span class="of-typing" id="ofTyping"><i></i><i></i><i></i></span>
+              <span id="ofBubbleText"></span>
+            </div>
+          </div>
+          <p class="of-chat-hint" id="ofChatHint">💬 Your sweets start chatting in about 2 minutes…</p>
+        </div>
+
+        <div class="of-summary" id="ofSummary"></div>
+
+        <div class="of-actions">
+          <a class="btn btn-ghost-dark btn-sm" href="tel:+916742501985">Call the Shop</a>
+          <button class="btn btn-red btn-sm" id="ofDone">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <script src="js/app.js?v=4" defer></script>
+</body>
+</html>
